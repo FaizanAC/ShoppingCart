@@ -1,0 +1,99 @@
+body {
+  color: black;
+  font-family: 'Kulim Park', sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  height: 25vh;
+  width: 25vh;
+}
+
+.product-view {
+  width: 80%;
+  float: right;
+}
+
+.btn-default {
+  outline: 1px solid black;
+}
+
+.search { position: relative; }
+.search input { text-indent: 30px;}
+.search .fa-search { 
+  position: absolute;
+  top: 11px;
+  left: 15px;
+  font-size: 15px;
+}
+
+.cart-items {
+  padding: 0;
+  margin: 0;
+}
+
+.cart-list {
+  list-style: none;
+}
+
+.cart-list img {
+  width: 5vh;
+  height: 5vh;
+}
+
+.cart-container {
+  background-color: rgb(245, 245, 245);
+  width: 30vw;
+}
+
+label {
+  display: contents;
+}
+
+.btn-danger {
+  float: right;
+}
+
+.dialog-styles {  
+  width: 500px;  
+  max-width: 100%; 
+  margin: 0 auto;
+  position: fixed; 
+  top: 50%;  
+  left: 50%;  
+  transform: translate(-50%, -50%);  
+  z-index: 2;
+  background-color: #eee; 
+  padding: 10px 20px 40px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}  
+.dialog-close-button {  
+  margin-bottom: 15px;
+  padding: 3px 8px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  width: 30px;
+  height: 30px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+/* Media Queries for mobile view*/
+@media (max-width:900px) {
+  .pl-5 {
+    padding: 0 !important;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+  }
+} 
